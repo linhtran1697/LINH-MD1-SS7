@@ -1,0 +1,123 @@
+/* Reset Css mặc định */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #222;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+
+  /* CSS Layout */
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== HEADER ===== */
+.navbar {
+  background-color: #6de2a4;
+  color: white;
+  padding: 16px 60px;
+
+  /* Flexbox */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu {
+  list-style: none;
+
+  /* Flexbox */
+  display: flex;
+  gap: 24px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+.menu a:hover {
+  color: #3ecf0d;
+}
+
+/* ===== MAIN ===== */
+.container {
+  width: 80%;
+  max-width: 900px;
+  margin: 30px auto;
+  flex: 1;
+}
+
+/* Featured post */
+.featured-post {
+  background-color: #e6c080;
+  padding: 30px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.featured-post h2 {
+  margin-bottom: 20px;
+}
+
+.featured-post h3 {
+  margin-bottom: 20px;
+}
+
+.featured-post p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.featured-post a {
+  color: #3366ff;
+  text-decoration: none;
+}
+
+/* Other posts */
+.other-posts {
+  background-color: #58d0eb;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.other-posts h2 {
+  margin-bottom: 25px;
+}
+
+/* CSS Grid */
+.posts-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.post-card h3 {
+  margin-bottom: 10px;
+}
+
+.post-card p {
+  color: #19191a;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background-color: #6de2a4;
+  color: white;
+  text-align: center;
+  padding: 18px;
+  margin-top: auto;
+}

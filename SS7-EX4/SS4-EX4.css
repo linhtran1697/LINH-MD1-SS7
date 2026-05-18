@@ -1,0 +1,51 @@
+/* reset css mặc định */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* css trang web */
+.header{
+      background:#3498db;
+      color:white;
+      padding:30px;
+      margin-bottom:10px;
+      font-size:30px;
+      font-weight:bold;
+    }
+.main{
+      display:flex;      /* lệnh quan trọng */
+      gap:10px;
+      margin-bottom:10px;
+    }
+
+    /* Sidebar */
+    .sidebar{
+      background:#2ecc71;
+      width:25%;
+      height:500px;
+      padding:20px;
+      color:white;
+      font-size:30px;
+      font-weight:bold;
+    }
+
+    /* Content */
+    .content{
+      background:#e74c3c;
+      flex:1;            /* chiếm phần còn lại */
+      height:500px;
+      padding:20px;
+      color:white;
+      font-size:30px;
+      font-weight:bold;
+    }
+
+    /* Footer */
+    .footer{
+      background:#9b59b6;
+      color:white;
+      padding:30px;
+      font-size:30px;
+      font-weight:bold;
+    }
